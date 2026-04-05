@@ -113,7 +113,7 @@ const createChoiceAnswerElement = (parent, text, index)=>{
     selectedAnswerBtn.appendChild(spaneElementAnswerSpan);
     parent.appendChild(selectedAnswerBtn);
     selectedAnswerBtn.value = index;
-    selectedAnswerBtn.addEventListener("click", answerQuestionBtn);
+    // selectedAnswerBtn.addEventListener("click", answerQuestionBtn);
     spaneElementAnswerSpan.addEventListener("click", answerQuestionBtn);
 }
 
