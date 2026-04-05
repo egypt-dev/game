@@ -38,7 +38,7 @@ let correctAnswerMsg = [
 
 let currentQuestion = 0, questionTitleEle = document.getElementById("question-title");
 let reachedScore = 0;
-let targetScore = 70;
+let targetScore = 55;
 const answerQuestionBtn = (event)=>{
     console.log(event)
     let selectedAnswer;
